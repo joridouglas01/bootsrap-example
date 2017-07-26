@@ -1,0 +1,71 @@
+
+/*==== Global CSS=====*/
+
+body {
+	min-height: 100vh;
+}
+.jumbotron {
+	margin: 0;
+}
+
+
+/* ====  Parallax CSS======*/
+
+.parallax {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 200px;
+}
+
+.pic1 {
+	background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2014/02/19/260052/abe76ab088be2de60c0cf5fec49bab6b.jpg);
+
+}
+
+
+/* ====== This is the CSS that makes subtle changes to the Navbar.  
+0px margin took away the gap underneath the Navbar, border radius took away the rounded corners.
+=====*/
+
+.navbar-custom {
+	margin: 0px;
+	border-radius: 0;
+}
+
+/*=======.  Hero CSS========*/
+
+.jumbotron.hero {
+	height: 100vh;
+	background-image: url("../img/bar1.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.hero .herotext {
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	padding: 30px;
+
+}
+
+
+/*======== Bar Types Section==========*/
+
+
+.bars {
+	background-color: grey;
+	color: white;
+}
+
+.barspic {
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+.taps {
+	background-image: url(http://beerlens.com/wp-content/uploads/2012/09/SmallBarTapHandles-990.jpg);
+}
+
+
